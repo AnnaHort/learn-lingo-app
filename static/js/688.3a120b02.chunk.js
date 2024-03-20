@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunklearn_lingo_app=self.webpackChunklearn_lingo_app||[]).push([[688],{688:(e,a,l)=>{l.r(a),l.d(a,{default:()=>s});l(43);var n=l(579);const s=()=>(0,n.jsx)("h2",{children:"Teachers"})}}]);
+//# sourceMappingURL=688.3a120b02.chunk.js.map
