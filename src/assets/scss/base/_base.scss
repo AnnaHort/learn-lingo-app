@@ -1,0 +1,16 @@
+@use "../utilities/variables" as var;
+@use "../utilities/mixins" as mix;
+@use "../utilities/functions" as func;
+@use "sass:map";
+@use "sass:list";
+
+body {
+  font-family: var.$main-font;
+  color: var.$primaryTextColor;
+  font-weight: map.get(var.$font-weights, "medium");
+}
+
+.container {
+  padding-left: 64px;
+  padding-right: 64px;
+}
