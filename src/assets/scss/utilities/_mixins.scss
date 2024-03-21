@@ -1,0 +1,33 @@
+@use "sass:map";
+@use "sass:list";
+@use "variables" as var;
+@use "functions" as fn;
+
+//міксин для бекдропу модалок
+@mixin portal-backdrop($background-color: rgba(0, 0, 0, 0.7)) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $background-color;
+    z-index: 2;
+  };
+
+  // міксин для блоку модального вікна
+@mixin portal-container(
+    $background-color: #fff,
+    $border-radius: 30px,
+    $min-width: 566px,
+    $min-height: 600px
+  ) {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $background-color;
+    padding: 64px;
+    border-radius: 30px;
+    max-width: $min-width;
+    min-height: $min-height;
+  };

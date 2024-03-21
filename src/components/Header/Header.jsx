@@ -1,10 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import "./header.scss";
 import { LogoSvg } from "../../assets/svg/logoSvg/LogoSvg";
 import { LoginSvg } from "../../assets/svg/loginSvg/LoginSvg";
+import { LoginModal } from "../LoginModal/LoginModal";
 
 export const Header = () => {
+  const [openLoginModal, setOpenLoginModal] = useState(false);
+
+  const handleClick = () => {
+    setOpenLoginModal(true);
+  };
+
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === "Escape") {
+        setOpenLoginModal(false);
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, []);
+
   return (
     <>
       <header>
@@ -24,7 +43,11 @@ export const Header = () => {
           </nav>
 
           <div className="header-registration-container">
-            <button className="header-login-btn" type="button">
+            <button
+              className="header-login-btn"
+              type="button"
+              onClick={handleClick}
+            >
               <LoginSvg />
               <span>Log in</span>
             </button>
@@ -35,6 +58,12 @@ export const Header = () => {
           </div>
         </section>
       </header>
+
+      <LoginModal
+        open={openLoginModal}
+        onClose={() => setOpenLoginModal(false)}
+      />
+
       <Outlet />
     </>
   );
