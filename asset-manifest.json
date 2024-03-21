@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/learn-lingo-app/static/css/main.dff37f21.css",
-    "main.js": "/learn-lingo-app/static/js/main.4f00cf5b.js",
-    "static/css/996.75104cff.chunk.css": "/learn-lingo-app/static/css/996.75104cff.chunk.css",
+    "main.css": "/learn-lingo-app/static/css/main.2f74de30.css",
+    "main.js": "/learn-lingo-app/static/js/main.a8cbb9e7.js",
+    "static/css/996.2a9cd080.chunk.css": "/learn-lingo-app/static/css/996.2a9cd080.chunk.css",
     "static/js/996.45eec8a7.chunk.js": "/learn-lingo-app/static/js/996.45eec8a7.chunk.js",
     "static/js/928.30f323a2.chunk.js": "/learn-lingo-app/static/js/928.30f323a2.chunk.js",
     "static/js/688.3a120b02.chunk.js": "/learn-lingo-app/static/js/688.3a120b02.chunk.js",
@@ -15,15 +15,15 @@
     "static/media/roboto-medium-webfont.woff2": "/learn-lingo-app/static/media/roboto-medium-webfont.9266d7981ad5d1c5e2a5.woff2",
     "static/media/roboto-regular-webfont.woff2": "/learn-lingo-app/static/media/roboto-regular-webfont.d235345a19a1cc0889ab.woff2",
     "index.html": "/learn-lingo-app/index.html",
-    "main.dff37f21.css.map": "/learn-lingo-app/static/css/main.dff37f21.css.map",
-    "main.4f00cf5b.js.map": "/learn-lingo-app/static/js/main.4f00cf5b.js.map",
-    "996.75104cff.chunk.css.map": "/learn-lingo-app/static/css/996.75104cff.chunk.css.map",
+    "main.2f74de30.css.map": "/learn-lingo-app/static/css/main.2f74de30.css.map",
+    "main.a8cbb9e7.js.map": "/learn-lingo-app/static/js/main.a8cbb9e7.js.map",
+    "996.2a9cd080.chunk.css.map": "/learn-lingo-app/static/css/996.2a9cd080.chunk.css.map",
     "996.45eec8a7.chunk.js.map": "/learn-lingo-app/static/js/996.45eec8a7.chunk.js.map",
     "928.30f323a2.chunk.js.map": "/learn-lingo-app/static/js/928.30f323a2.chunk.js.map",
     "688.3a120b02.chunk.js.map": "/learn-lingo-app/static/js/688.3a120b02.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dff37f21.css",
-    "static/js/main.4f00cf5b.js"
+    "static/css/main.2f74de30.css",
+    "static/js/main.a8cbb9e7.js"
   ]
 }
