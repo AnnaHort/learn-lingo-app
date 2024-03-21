@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/learn-lingo-app/static/css/main.29ad43e0.css",
-    "main.js": "/learn-lingo-app/static/js/main.ecf39fe7.js",
-    "static/js/72.bef7fa91.chunk.js": "/learn-lingo-app/static/js/72.bef7fa91.chunk.js",
+    "main.css": "/learn-lingo-app/static/css/main.dff37f21.css",
+    "main.js": "/learn-lingo-app/static/js/main.4be0b173.js",
+    "static/css/127.de43bcab.chunk.css": "/learn-lingo-app/static/css/127.de43bcab.chunk.css",
+    "static/js/127.441cdf98.chunk.js": "/learn-lingo-app/static/js/127.441cdf98.chunk.js",
     "static/js/928.30f323a2.chunk.js": "/learn-lingo-app/static/js/928.30f323a2.chunk.js",
     "static/js/688.3a120b02.chunk.js": "/learn-lingo-app/static/js/688.3a120b02.chunk.js",
+    "static/media/hero-img-girl-2x.png": "/learn-lingo-app/static/media/hero-img-girl-2x.316b6e450644a6105055.png",
+    "static/media/hero-img-girl-1x.png": "/learn-lingo-app/static/media/hero-img-girl-1x.a2340642d996ebc78bd6.png",
     "static/media/roboto-bold-webfont.woff": "/learn-lingo-app/static/media/roboto-bold-webfont.295457f480e860217118.woff",
     "static/media/roboto-medium-webfont.woff": "/learn-lingo-app/static/media/roboto-medium-webfont.424762abcf12b217b0e1.woff",
     "static/media/roboto-regular-webfont.woff": "/learn-lingo-app/static/media/roboto-regular-webfont.f261efb770dfae0d1753.woff",
@@ -12,14 +15,15 @@
     "static/media/roboto-medium-webfont.woff2": "/learn-lingo-app/static/media/roboto-medium-webfont.9266d7981ad5d1c5e2a5.woff2",
     "static/media/roboto-regular-webfont.woff2": "/learn-lingo-app/static/media/roboto-regular-webfont.d235345a19a1cc0889ab.woff2",
     "index.html": "/learn-lingo-app/index.html",
-    "main.29ad43e0.css.map": "/learn-lingo-app/static/css/main.29ad43e0.css.map",
-    "main.ecf39fe7.js.map": "/learn-lingo-app/static/js/main.ecf39fe7.js.map",
-    "72.bef7fa91.chunk.js.map": "/learn-lingo-app/static/js/72.bef7fa91.chunk.js.map",
+    "main.dff37f21.css.map": "/learn-lingo-app/static/css/main.dff37f21.css.map",
+    "main.4be0b173.js.map": "/learn-lingo-app/static/js/main.4be0b173.js.map",
+    "127.de43bcab.chunk.css.map": "/learn-lingo-app/static/css/127.de43bcab.chunk.css.map",
+    "127.441cdf98.chunk.js.map": "/learn-lingo-app/static/js/127.441cdf98.chunk.js.map",
     "928.30f323a2.chunk.js.map": "/learn-lingo-app/static/js/928.30f323a2.chunk.js.map",
     "688.3a120b02.chunk.js.map": "/learn-lingo-app/static/js/688.3a120b02.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29ad43e0.css",
-    "static/js/main.ecf39fe7.js"
+    "static/css/main.dff37f21.css",
+    "static/js/main.4be0b173.js"
   ]
 }
