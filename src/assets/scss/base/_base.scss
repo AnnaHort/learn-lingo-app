@@ -7,10 +7,13 @@
 body {
   font-family: var.$main-font;
   color: var.$primaryTextColor;
-  font-weight: map.get(var.$font-weights, "medium");
+  font-weight: 500;
+  font-size: map.get(var.$font-sizes, "md");
+
 }
 
 .container {
-  padding-left: 64px;
-  padding-right: 64px;
+  max-width: 1312px;
+  margin-right: auto;
+  margin-left: auto;
 }

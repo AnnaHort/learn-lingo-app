@@ -2,7 +2,7 @@ import React from "react";
 
 export const LoginSvg = () => {
   return (
-    <div>
+    <>
       <svg
         width="20"
         height="20"
@@ -25,6 +25,6 @@ export const LoginSvg = () => {
           strokeLinejoin="round"
         />
       </svg>
-    </div>
+    </>
   );
 };

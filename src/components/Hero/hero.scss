@@ -1,0 +1,61 @@
+@use "../../assets/scss/utilities/variables" as var;
+@use "sass:map";
+
+.hero-section {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.hero-title-container {
+  border-radius: 30px;
+  background-color: var.$secondaryBackgroundColor;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 64px;
+}
+
+.hero-title {
+  font-size: map.get(var.$font-sizes, "xxxxxl");
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  margin-bottom: 32px;
+  max-width: 548px;
+}
+.hero-title-accent {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.hero-text {
+  font-weight: 400;
+  line-height: 1.37;
+  letter-spacing: -0.02em;
+  margin-bottom: 64px;
+  max-width: 471px;
+}
+
+.hero-btn {
+  font-weight: 700;
+  font-size: map.get(var.$font-sizes, "lg");
+  line-height: 1.56;
+
+  border-radius: 12px;
+  padding: 16px 88px;
+  background-color: var.$primaryBtnColor;
+}
+
+.hero-img-container {
+  border-radius: 30px;
+  min-width: 568px;
+  background: #fbe9ba;
+  height: 530px;
+  position: relative;
+}
+
+.hero-img-girl {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  z-index: 1;
+}

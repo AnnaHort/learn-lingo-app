@@ -2,7 +2,7 @@ import React from "react";
 
 export const LogoSvg = () => {
   return (
-    <div>
+    <>
       <svg
         width="28"
         height="28"
@@ -26,6 +26,6 @@ export const LogoSvg = () => {
           </clipPath>
         </defs>
       </svg>
-    </div>
+    </>
   );
 };

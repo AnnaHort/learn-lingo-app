@@ -6,28 +6,36 @@ import { LoginSvg } from "../../assets/svg/loginSvg/LoginSvg";
 
 export const Header = () => {
   return (
-    <section className="header-section">
-      <div className="header-logo-container">
-        <LogoSvg />
-        <h2>LearnLingo</h2>
-      </div>
+    <>
+      <header>
+        <section className="header-section container">
+          <div className="header-logo-container">
+            <LogoSvg />
+            <h2 className="header-logo">LearnLingo</h2>
+          </div>
 
-      <nav className="header-navigation">
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/teachers">Teachers</NavLink>
-      </nav>
+          <nav className="header-navigation">
+            <NavLink to="/" className="header-navigation-page">
+              Home
+            </NavLink>
+            <NavLink to="/teachers" className="header-navigation-page">
+              Teachers
+            </NavLink>
+          </nav>
 
-      <div className="header-registration-container">
-        <LoginSvg />
-        <button className="header-login-btn" type="button">
-          Log in
-        </button>
-        <button className="header-registration-btn" type="button">
-          Registration
-        </button>
-      </div>
+          <div className="header-registration-container">
+            <button className="header-login-btn" type="button">
+              <LoginSvg />
+              <span>Log in</span>
+            </button>
 
+            <button className="header-registration-btn" type="button">
+              Registration
+            </button>
+          </div>
+        </section>
+      </header>
       <Outlet />
-    </section>
+    </>
   );
 };
