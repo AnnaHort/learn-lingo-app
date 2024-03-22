@@ -3,7 +3,8 @@ import { NavLink, Outlet } from "react-router-dom";
 import "./header.scss";
 import { LogoSvg } from "../../assets/svg/logoSvg/LogoSvg";
 import { LoginSvg } from "../../assets/svg/loginSvg/LoginSvg";
-import { LoginModal } from "../LoginModal/LoginModal";
+import { LoginModal } from "../AuthModals/LoginModal/LoginModal";
+import { RegistrationModal } from "../AuthModals/RegistrationModal/RegistrationModal";
 
 export const Header = () => {
   const [openLoginModal, setOpenLoginModal] = useState(false);
@@ -52,7 +53,11 @@ export const Header = () => {
               <span>Log in</span>
             </button>
 
-            <button className="header-registration-btn" type="button">
+            <button
+              className="header-registration-btn"
+              type="button"
+              onClick={handleClick}
+            >
               Registration
             </button>
           </div>
@@ -60,6 +65,10 @@ export const Header = () => {
       </header>
 
       <LoginModal
+        open={openLoginModal}
+        onClose={() => setOpenLoginModal(false)}
+      />
+      <RegistrationModal
         open={openLoginModal}
         onClose={() => setOpenLoginModal(false)}
       />

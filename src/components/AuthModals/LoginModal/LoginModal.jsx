@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "./loginModal.scss";
-import { CloseSvg } from "../../assets/svg/CloseSvg/CloseSvg";
+import "./authModal.scss";
+import { CloseSvg } from "../../../assets/svg/CloseSvg/CloseSvg";
 import ReactDOM from "react-dom";
-import { ClosePassSvg } from "../../assets/svg/ClosePassSvg/ClosePassSvg";
+import { ClosePassSvg } from "../../../assets/svg/ClosePassSvg/ClosePassSvg";
 
 export const LoginModal = ({ open, onClose }) => {
   const [viewPass, setViewPass] = useState(false);
@@ -20,32 +20,32 @@ export const LoginModal = ({ open, onClose }) => {
   if (!open) return null;
 
   return ReactDOM.createPortal(
-    <div className="login-modal-background" onClick={handleModalClose}>
-      <div className="login-modal-container">
+    <div className="modal-background" onClick={handleModalClose}>
+      <div className="modal-container">
   
           <CloseSvg onClick={onClose}/>
    
-        <h2 className="login-modal-title">Log In</h2>
-        <p className="login-modal-text">
+        <h2 className="modal-title">Log In</h2>
+        <p className="modal-text">
           Welcome back! Please enter your credentials to access your account and
           continue your search for an teacher.
         </p>
-        <form action="" className="login-modal-form">
+        <form action="" className="modal-form">
           <input
             type="text"
-            className="login-modal-form-input"
+            className="modal-form-input"
             placeholder="Email"
           />
-          <div className="login-modal-pass-container">
+          <div className="modal-pass-container">
             <input
               type={viewPass ? "text" : "password"}
-              className="login-modal-form-input login-modal-form-input__pass"
+              className="modal-form-input modal-form-input__pass"
               placeholder="Password"
             />
             <ClosePassSvg onClick={handleClick} />
           </div>
 
-          <button type="submit" className="login-modal-form-btn">
+          <button type="submit" className="modal-form-btn">
             Log In
           </button>
         </form>
